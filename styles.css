@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 10;
+  width: 100%;
+  height: 100%;
+}
+
+.header_box {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.logo_img {
+  max-height: 90px;
+  margin: 0 auto;
+  object-fit: scale-down;
+}
+
+.logo_box {
+  width: 38%;
+}
+
+.headings {
+  width: 62%;
+  font-family: 'Montserrat', sans-serif;
+  text-align: right;
+  color: #2d3c49;
+}
+
+.myname {
+  font-size: xx-large;
+  font-weight: bolder;
+  overflow-wrap: break-word;
+}
+
+.job_desc {
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+.underline {
+  width: 100%;
+  border-top: 5px solid #7d97ad;
+}
+
+.main_pic_box {
+  margin-top: 20px;
+}
+
+.main_img {
+  width: 100%;
+  object-fit: fill;
+}
+  
+.my_work_title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: xx-large;
+  font-weight: normal;
+  color: #7d97ad;
+}
+
+.my_work_box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  height: 800px;
+  justify-content: space-between;
+}
+
+.my_work_project_img {
+  width: 100%;  
+  height: 300px;
+  border: 5px solid #02b3e4;
+  object-fit: scale-down;
+  background-color: #7d97ad;
+} 
+.my_work_project_name {
+  font-family: 'Montserrat', sans-serif;
+  font-size: x-large;
+  font-weight: normal;
+  text-align: center;
+  color: #2d3c49;
+  text-decoration: none;
+  height: 60px;
+}
+  
+.my_work_project_url {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: #2d3c49;
+  overflow-wrap: break-word;
+}
+
+@media screen and (max-width: 599px) {
+  .my_work_project {
+    width: 100%;
+  }
+}
+  
+@media screen and (min-width: 600px) and (max-width: 999px) {
+  .my_work_project {
+    width: 48%;
+  }
+}
+  
+@media screen and (min-width: 1000px) {
+  .my_work_project  {
+    width: 23%;
+  }
+}
+  
